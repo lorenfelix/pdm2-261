@@ -49,6 +49,7 @@ void main() async {
     }
   }
   
+  
   // Loop principal - tenta conectar e envia a cada 10s
   Timer.periodic(Duration(seconds: 10), (timer) async {
     if (!connected) {
