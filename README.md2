@@ -1,0 +1,109 @@
+Jogos de Linguagem e Programação Orientada a Objetos
+
+1) Conceito de Jogos de Linguagem
+
+O conceito de *jogos de linguagem* foi desenvolvido pelo filósofo Ludwig Wittgenstein, principalmente em sua obra *Investigações Filosóficas*.
+
+Para Wittgenstein, a linguagem não possui um significado fixo e universal. Em vez disso, o significado das palavras surge a partir do **uso que fazemos delas em contextos específicos**. Esses contextos são chamados de *jogos de linguagem*.
+
+Um jogo de linguagem envolve:
+
+* Regras (explícitas ou implícitas)
+* Contexto social ou prático
+* Participantes que compreendem essas regras
+
+Exemplo simples:
+
+A palavra “classe” pode significar coisas diferentes dependendo do contexto:
+
+* Na escola: grupo de alunos
+* Na programação: estrutura que define objetos
+* Na sociologia: grupo social
+
+Ou seja, o significado depende do “jogo” em que a palavra está sendo usada.
+
+
+2) Jogos de Linguagem no contexto da Programação Orientada a Objetos (POO)
+
+Na **Programação Orientada a Objetos (POO)**, os jogos de linguagem aparecem na forma como desenvolvedores utilizam termos técnicos dentro de regras específicas da área.
+
+Termos comuns na POO:
+
+* **Classe** → modelo ou estrutura
+* **Objeto** → instância da classe
+* **Herança** → reutilização de código entre classes
+* **Encapsulamento** → proteção e organização de dados
+
+Fora desse contexto, essas palavras têm significados completamente diferentes.
+
+Isso mostra que:
+
+* O significado não está na palavra em si
+* Está no **uso dentro da prática da programação**
+
+Exemplo em código:
+
+```java
+class Animal {
+    void emitirSom() {
+        System.out.println("Som genérico");
+    }
+}
+
+class Cachorro extends Animal {
+    void emitirSom() {
+        System.out.println("Latido");
+    }
+}
+```
+
+Neste exemplo:
+
+* “extends” faz sentido apenas dentro do contexto da programação
+* “Animal” e “Cachorro” são conceitos modelados dentro desse sistema
+
+
+3) Documentação do uso de um Jogo de Linguagem
+
+A documentação de um jogo de linguagem consiste em **explicar claramente as regras, os termos e o contexto em que a linguagem é utilizada**.
+
+Exemplo de documentação (POO):
+
+**Nome do Jogo de Linguagem:** Programação Orientada a Objetos
+
+**Contexto:** Desenvolvimento de software
+
+**Objetivo:** Modelar problemas do mundo real por meio de objetos e classes
+
+Principais termos e regras:
+
+* **Classe:** Define atributos e métodos
+* **Objeto:** Instância de uma classe
+* **Método:** Ação que o objeto pode executar
+* **Atributo:** Característica do objeto
+* **Herança:** Permite que uma classe herde características de outra
+* **Polimorfismo:** Permite diferentes comportamentos para o mesmo método
+
+Regras de uso:
+
+* Classes devem representar entidades
+* Objetos devem ser instâncias válidas dessas classes
+* Métodos devem definir comportamentos coerentes
+* A herança deve respeitar relações lógicas (ex: “é um tipo de”)
+
+Exemplo documentado:
+
+* Classe: `Veiculo`
+* Subclasse: `Carro`
+* Regra aplicada: herança (Carro é um tipo de Veiculo)
+
+
+Conclusão
+
+Os jogos de linguagem mostram que:
+
+* A linguagem é prática e contextual
+* O significado depende do uso
+* Áreas técnicas, como a programação, criam seus próprios jogos com regras específicas
+
+Na Programação Orientada a Objetos, compreender esse jogo de linguagem é essencial para interpretar corretamente conceitos e escrever código de forma eficaz.
